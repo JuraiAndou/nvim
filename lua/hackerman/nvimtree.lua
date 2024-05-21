@@ -46,4 +46,7 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
   },
+  autotag = {
+      enable = true
+  },
 })

@@ -24,6 +24,13 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
   use('nvim-treesitter/nvim-treesitter-context')
   -- use('nvim-tree/nvim-tree.lua')
+  use('m4xshen/autoclose.nvim')
+  use('MunifTanjim/prettier.nvim')
+  use('MunifTanjim/eslint.nvim')
+  use('kyazdani42/nvim-web-devicons')
+  use('glepnir/lspsaga.nvim')
+  use('jose-elias-alvarez/null-ls.nvim')
+  use("windwp/nvim-ts-autotag")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
